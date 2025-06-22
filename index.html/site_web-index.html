@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Robot LEGO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(90deg, #8e2de2, #4a00e0);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background: linear-gradient(90deg, #8e2de2, #4a00e0);
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #8e2de2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(90deg, #8e2de2, #4a00e0);
+            color: white;
+            margin-top: 30px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+            margin-top: 10px;
+        }
+
+        .code-links a {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            background-color: #8e2de2;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .code-links a:hover {
+            background-color: #4a00e0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Notre Robot LEGO</h1>
+        <p>Un projet passionnant réalisé par notre équipe</p>
+    </header>
+
+    <nav>
+        <a href="#equipe">L'Équipe</a>
+        <a href="#robot">Le Robot</a>
+        <a href="#programmation">Programmation</a>
+        <a href="#epreuves">Mise à l'épreuve</a>
+        <a href="#videos">Vidéos</a>
+    </nav>
+
+    <section id="equipe">
+        <h2>Présentation de l'Équipe</h2>
+        <p>Nous sommes une équipe de jeunes passionnés par la robotique et l'ingénierie. Voici les membres :</p>
+        <ul>
+            <li><strong>Moussa Barry</strong> - Responsable de la programmation</li>
+            <li><strong>El Hadji Mouhamed Tahir Ndao</strong> - Conception et design</li>
+            <li><strong>Corenttin Falletty</strong> - Responsable de la programmation</li>
+            <li><strong>Thomas Bagry</strong> - Communication</li>
+        </ul>
+    </section>
+
+    <section id="robot">
+        <h2>Le Robot LEGO</h2>
+        <p>Notre robot a été conçu à partir du kit LEGO Mindstorms/Spike. Il est capable de :</p>
+        <ul>
+            <li>Suivre une ligne</li>
+            <li>Éviter les obstacles</li>
+            <li>Détecter plusieurs couleurs</li>
+        </ul>
+        <img src="robot-lego.jpg" alt="Notre robot LEGO" style="max-width:100%; margin-top:10px;">
+    </section>
+
+    <section id="programmation">
+        <h2>Explication de la Programmation</h2>
+        <p>Nous avons utilisé le langage C avec ROBOTC pour le labyrinthe, et Python avec Visual Studio Code pour le suiveur de piste.</p>
+        <p>Exemples de blocs utilisés :</p>
+        <ul>
+            <li>Détection d'obstacles avec capteurs ultrason et Capteurs de contact</li>
+            <li>Instructions conditionnelles pour prendre des décisions</li>
+            <li>Contrôle des moteurs pour les mouvements complexes</li>
+            <li>Détection du piste et des différentes couleurs</li>
+        </ul>
+        <div class="code-links">
+            <a href="C:\Users\ReMarkt\Downloads\rouge2.c" target="_blank">Code C - Labyrinthe mission 1</a>
+            <a href="C:\Users\ReMarkt\Downloads\rouge1.c" target="_blank">Code Python - Labyrinthe mission 2</a>
+            <a href="C:\Users\ReMarkt\Downloads\progUNO.py" target="_blank">Code Python - Suiveur de piste mission 1</a>
+            <a href="C:\Users\ReMarkt\Downloads\main.py" target="_blank">Code Python - Suiveur de piste mission 2</a>
+        </div>
+        <img src="exemple-programmation.png" alt="Exemple de code LEGO" style="max-width:100%; margin-top:10px;">
+    </section>
+
+    <section id="epreuves">
+        <h2>Mise à l'Épreuve</h2>
+        <p>Le robot a été testé dans différents scénarios :</p>
+        <ol>
+            <li>Parcours d'obstacles avec virages serrés</li>
+            <li>Suiveur de piste avec des obstacles</li>
+        </ol>
+    </section>
+
+    <section id="videos">
+        <h2>Vidéos du Robot en Action</h2>
+        <p>Voici quelques démonstrations en vidéo :</p>
+        <iframe src="https://www.youtube.com/embed/VOTRE_ID_VIDEO1" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/VOTRE_ID_VIDEO2" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Notre Équipe Robotique - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
